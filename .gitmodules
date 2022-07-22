@@ -1,0 +1,3 @@
+[submodule "robot-plan-runner"]
+	path = robot-plan-runner
+	url = git@github.com:RobotLocomotion/robot-plan-runner.git
