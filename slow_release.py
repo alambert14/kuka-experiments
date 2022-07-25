@@ -43,6 +43,10 @@ time.sleep(1.0)
 # Look into motion commands of the shunk, need to control velocity
 # System state commands can get the force of the gripper (p 39)
 # https://schunk.com/fileadmin/pim/docs/IM0022538.PDF
+
+# Also need to figure out how to get grip force measurement
+
+# SchunkWsgPdController
 schunk.send_schunk_position_command(25)
 schunk.wait_for_command_to_finish()
 time.sleep(5.0)
